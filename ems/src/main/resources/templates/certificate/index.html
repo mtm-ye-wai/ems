@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="/css/dataTables.min.css"/>
+<link rel="stylesheet" href="/css/responsive.dataTables.min.css"/>
+<link rel="stylesheet" href="/css/dataTables.fixedColumns.min.css"/>
+<link rel="stylesheet" href="/css/import.css" media="all" />
+
+<script type="text/javascript" th:src="@{/js/library/jquery.js}"></script>
+<script type="text/javascript" th:src="@{/js/library/jquery-ui.js}"></script>
+<script th:src="@{/js/library/dataTables.min.js}"></script>
+<script th:src="@{/js/library/responsive.dataTables.min.js}"></script>
+<script th:src="@{/js/library/dataTables.fixedColumns.min.js}"></script>
+<script th:src="@{/js/library/pagination.js}"></script>
+<script type="text/javascript" th:src="@{/js/common.js}"></script>
+
+<script type="text/javascript" th:src="@{/js/library/pagination.js}"></script>
+<script th:src="@{/js/custom.js}"></script>
+<script th:src="@{/js/library/bootstrap.min.js}"></script>
+<script th:src="@{/js/library/moment.min.js}"></script>
+<script th:src="@{/js/library/choices.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/library/pagination.js}"></script>
+<script th:src="@{/js/custom.js}"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header th:insert="~{common/fragments/header :: header}"></header>
+        <div class="content">
+            <div th:insert="~{common/fragments/sidebar :: sidebar}"></div>
+            <div class="main">
+                <div class="l-inner">
+                    <h2 class="page-tit">Certificate List</h2>
+                    <ul class="breadcrumb mg-b30">
+                      <li><a th:href="@{/dashboard}"><img
+                          src="img/breadcrumb_home.svg" alt=""></a></li>
+                      <li>Certificate</li>
+                    </ul>
+                    
+                    <div class="c-box">
+                      <div class="search-form clearfix mg-b30">
+
+                          <div class="search-box">
+                            <div class="s-ico">
+                              <input type="text" class="search-key" id="searchbox"
+                                placeholder="Search By">
+                            </div>
+                            <div class="to-next">
+                              <a th:href="@{/addLanguage}" class="long-reg">+
+                                Registration</a>
+                            </div>
+                          </div>
+                        
+                      </div>
+                      <table id="datatable" class="cmn-tbl">
+                        <thead>
+                          <tr>
+                            <th class="no-sort">No</th>
+                            <th>Certificate</th>
+                            <th>Skill Level</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Created Date</th>
+                            <th data-orderable="false">Action</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr th:each="language : ${languageList}">
+                                <td class="no" th:text="${language.certificateId()}"></td>
+                                <td class="breakline" th:text="${language.certificateName()}"></td>
+                                <td class="text-truncate" th:text="${language.skillLvl()}"></td>
+                                <td th:text="${language.type()}"></td>
+                                <td class="txt-right">
+                                    <span th:text="${language.amount()}"></span>
+                                </td>
+                                <td class="txt-right">
+                                    <span th:text="${language.createdAt()}"></span>
+                                </td>
+                                <td class="crud-actions">
+                                    <div class="crud-list">
+                                        <a th:href="@{/languageDetail(languageId=${language.certificateId()})}"
+                                           class="ref"><img src="img/ico_view.png" alt="view more"></a>
+                                        <a th:href="@{/editLanguage(languageId=${language.certificateId()})}"
+                                           class="update"><img src="img/ico_edit_blue.png" alt="Edit"></a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <script th:src="@{/js/alert.js}"></script>
+                    <script th:src="@{/js/language_list.js}"></script>
+
+                </div>
+            </div> 
+        </div>
+
+        <div th:insert="~{common/fragments/footer :: footer}"></div>
+    </div>
+</body>
+</html>

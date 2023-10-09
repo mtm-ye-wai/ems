@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/* Custom styling for the date picker */
+.date-picker-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.date-picker-calendar {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Optionally, style the calendar content */
+.date-picker-calendar p {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Show the calendar when the input is focused */
+input[type="text"]:focus+.date-picker-calendar {
+  display: block;
+}
+
+.ui-datepicker {
+  width: 210px;
+  margin-top: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  box-shadow: #dce4ed 0px 0px 5px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+  background-color: transparent;
+}
+
+.ui-widget-header {
+  border: none;
+  background: transparent;
+  color: #575757;
+  font-weight: 700;
+}
+
+.ui-widget-content {
+  background-color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+  top: 26%;
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+
+
+.ui-datepicker .ui-datepicker-prev span {
+  left: 23%;
+  background: url("../img/ico_calendar_l_arrow.png")no-repeat center/contain;
+  content: "";
+}
+
+.ui-datepicker .ui-datepicker-next span {
+  left: 20%;
+  background: url("../img/ico_calendar_r_arrow.png")no-repeat center/contain;
+  content: "";
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  border: 1px solid transparent;
+  background: transparent;
+  color: #121a2d;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+  border: 1px solid transparent;
+  background-color: #ffbc6e;
+  color: #121A2D;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #ffefdc;
+  background-color: #ffefdc;
+  color: #000;
+}
+
+.ui-selectable {
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.ui-selectable-helper {
+  position: absolute;
+  z-index: 100;
+  border: 1px dotted black;
+}
+
+.ui-selectmenu-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.ui-selectmenu-menu .ui-menu {
+  overflow: auto;
+  padding-bottom: 1px;
+  overflow-x: hidden;
+}
+
+.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup {
+  height: auto;
+  line-height: 1.5;
+  margin: 0.5em 0 0 0;
+  padding: 2px 0.4em;
+  border: 0;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.ui-selectmenu-open {
+  display: block;
+}
+
+.ui-selectmenu-text {
+  display: block;
+  overflow: hidden;
+  margin-right: 20px;
+  text-overflow: ellipsis;
+}
+
+.ui-selectmenu-button.ui-button {
+  width: 14em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.ui-selectmenu-icon.ui-icon {
+  float: right;
+  margin-top: 0;
+}

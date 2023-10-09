@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="221" height="96" viewBox="0 0 221 96">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbc6e;
+      }
+
+      .cls-1, .cls-2, .cls-5, .cls-8 {
+        font-size: 11px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-2 {
+        fill: #575757;
+      }
+
+      .cls-10, .cls-3, .cls-4, .cls-6, .cls-7, .cls-9 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 4px;
+      }
+
+      .cls-3 {
+        stroke: #fbeede;
+      }
+
+      .cls-4 {
+        stroke: #ffbc6e;
+      }
+
+      .cls-5 {
+        fill: #30e8ac;
+      }
+
+      .cls-6 {
+        stroke: #d7f8ee;
+      }
+
+      .cls-7 {
+        stroke: #30e8ac;
+      }
+
+      .cls-8 {
+        fill: #85c5ff;
+      }
+
+      .cls-9 {
+        stroke: #e8f4ff;
+      }
+
+      .cls-10 {
+        stroke: #309afc;
+      }
+    </style>
+  </defs>
+  <g id="Group_50" data-name="Group 50" transform="translate(-578 -231)">
+    <g id="Group_47" data-name="Group 47" transform="translate(0 3)">
+      <text id="Annual" class="cls-1" transform="translate(580 320)"><tspan x="0" y="0">Annual</tspan></text>
+      <text id="_7.0_10.0" data-name="7.0 / 10.0" class="cls-2" transform="translate(797 320)"><tspan x="-45.98" y="0">7.0 / 10.0</tspan></text>
+      <path id="Path_94" data-name="Path 94" class="cls-3" d="M-1126.473-854.767h217" transform="translate(1706.473 1157.767)"/>
+      <path id="Path_95" data-name="Path 95" class="cls-4" d="M-1126.473-854.767h65" transform="translate(1706.473 1157.767)"/>
+    </g>
+    <g id="Group_48" data-name="Group 48" transform="translate(0 -33)">
+      <text id="Sick" class="cls-5" transform="translate(580 320)"><tspan x="0" y="0">Sick</tspan></text>
+      <text id="_0.0_30.0" data-name="0.0 / 30.0" class="cls-2" transform="translate(797 320)"><tspan x="-49.841" y="0">0.0 / 30.0</tspan></text>
+      <path id="Path_94-2" data-name="Path 94" class="cls-6" d="M-1126.473-854.767h217" transform="translate(1706.473 1157.767)"/>
+      <path id="Path_95-2" data-name="Path 95" class="cls-7" d="M-1126.473-854.767h.5" transform="translate(1706.473 1157.767)"/>
+    </g>
+    <g id="Group_49" data-name="Group 49" transform="translate(0 -70)">
+      <text id="Casual" class="cls-8" transform="translate(580 321)"><tspan x="0" y="0">Casual</tspan></text>
+      <text id="_4.0_6.0" data-name="4.0 / 6.0" class="cls-2" transform="translate(797 321)"><tspan x="-43.45" y="0">4.0 / 6.0</tspan></text>
+      <path id="Path_94-3" data-name="Path 94" class="cls-9" d="M-1126.473-854.767h217" transform="translate(1706.473 1157.767)"/>
+      <path id="Path_95-3" data-name="Path 95" class="cls-10" d="M-1126.473-854.767h87" transform="translate(1706.473 1157.767)"/>
+    </g>
+  </g>
+</svg>

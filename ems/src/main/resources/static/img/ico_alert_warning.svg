@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="ico_alert_warning" transform="translate(-960 -2385)">
+    <circle id="Ellipse_1278" data-name="Ellipse 1278" cx="18" cy="18" r="18" transform="translate(960 2385)" fill="#ffbc6e"/>
+    <path id="Icon_ionic-ios-warning" data-name="Icon ionic-ios-warning" d="M10.755,5.149,3.53,18.334a1.24,1.24,0,0,0,1.106,1.832H19.089a1.243,1.243,0,0,0,1.106-1.832L12.966,5.149A1.266,1.266,0,0,0,10.755,5.149Z" transform="translate(966.625 2389.5)" fill="#fff"/>
+    <g id="Group_4110" data-name="Group 4110" transform="translate(978.486 2399)">
+      <path id="Path_10476" data-name="Path 10476" d="M978,2404.146v-4.426" transform="translate(-978 -2399.721)" fill="none" stroke="#ffbc6e" stroke-linecap="round" stroke-width="2"/>
+      <path id="Path_10477" data-name="Path 10477" d="M978,2399.72v.03" transform="translate(-978 -2391.756)" fill="none" stroke="#ffbc6e" stroke-linecap="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

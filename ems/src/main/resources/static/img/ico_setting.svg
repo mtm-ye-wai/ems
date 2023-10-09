@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.5" height="21.5" viewBox="0 0 21.5 21.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #575757;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="ico_setting" transform="translate(-1.25 -1.25)">
+    <path id="Path_11174" data-name="Path 11174" class="cls-1" d="M9,22h6c5,0,7-2,7-7V9c0-5-2-7-7-7H9C4,2,2,4,2,9v6C2,20,4,22,9,22Z"/>
+    <path id="Path_11175" data-name="Path 11175" class="cls-2" d="M15.57,18.5V14.6"/>
+    <path id="Path_11176" data-name="Path 11176" class="cls-2" d="M15.57,7.45V5.5"/>
+    <path id="Path_11177" data-name="Path 11177" class="cls-2" d="M15.57,12.65a2.6,2.6,0,1,0-2.6-2.6A2.6,2.6,0,0,0,15.57,12.65Z"/>
+    <path id="Path_11178" data-name="Path 11178" class="cls-2" d="M8.43,18.5V16.55"/>
+    <path id="Path_11179" data-name="Path 11179" class="cls-2" d="M8.43,9.4V5.5"/>
+    <path id="Path_11180" data-name="Path 11180" class="cls-2" d="M8.43,16.55a2.6,2.6,0,1,0-2.6-2.6A2.6,2.6,0,0,0,8.43,16.55Z"/>
+  </g>
+</svg>

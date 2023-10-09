@@ -1,0 +1,203 @@
+<nav th:fragment="generalOperatorMenu">
+    <div class="logo-sec">
+      <h1 class="logo">
+        <a href="${pageContext.request.contextPath}/dashboard"><img
+          src="<%=request.getContextPath()%>/resources/new-design/img/logo.svg"
+          alt="EMS"> <span>EMS</span> </a>
+      </h1>
+      <p id="sidebar-btn">
+        <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon.svg"
+          alt="Icon" class="pc"> <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon_sp.png"
+          alt="Icon" class="sp">
+      </p>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li class="dashboard"><a
+        href="${pageContext.request.contextPath}/dashboard" class="active">
+          <span class="invisible">Dashboard</span>
+      </a></li>
+      <li class="report nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Report</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><span class="toggle">Attendance</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerShift">Shift
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listAttendance">Attendance
+                  History</a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listFingerprint">
+              <span class="invisible">Fingerprint</span>
+          </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/leaveRecord"> <span
+              class="invisible">Leave History</span></a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/historyOvertime">
+              <span class="invisible">Overtime History</span>
+          </a></li>
+          <li><span class="toggle">WFH</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/listWFH">WFH
+                  Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/memberWFHHistory">WFH
+                  History</a></li>
+            </ol></li>
+        </ul></li>
+  
+      <li class="employee nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Employee</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><span class="toggle">Employee</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerEmployee">Employee
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listEmployees">Employee
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Employee Ferry</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/employeeFerry/import">Employee
+                  Ferry Import</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/employeeFerry/dataList">Employee
+                  Ferry List</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/guestEmployee/import">Guest
+                  Employee Import</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/guestEmployee/list">Guest
+                  Employee List</a></li>
+            </ol></li>
+          <li><a href="${pageContext.request.contextPath}/schedule">
+              <span class="invisible">Schedule</span>
+          </a></li>
+        </ul></li>
+  
+      <li class="transportation nav-list-item"><a href="#"
+        class="nav-sp"> <span class="invisible">Transportation</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/transportationHistory">
+              <span class="invisible">Transportation History</span>
+          </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/transitionList">
+              <span class="invisible">Transition History</span>
+          </a></li>
+          <li><span class="toggle">Other Transportation</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/otherTransportationRequest">Transportation
+                  Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/otherTransportationHistory">Transportation
+                  History</a></li>
+            </ol></li>
+        </ul></li>
+  
+      <li class="employee nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Sys Management</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/organizationChartRegister">
+              <span class="invisible">Organization Chart</span>
+          </a></li>
+          <li><span class="toggle">Holiday</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/addHoliday">Holiday
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listHoliday">Holiday
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Meeting Room</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerMeetingRoom">Meeting
+                  Room Register</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listMeetingRoom">Meeting
+                  Room List</a></li>
+            </ol></li>
+          <li><span class="toggle">Equipment</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerEquipment">Equipment
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listEquipment">Equipment
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Ferry</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/ferryRoute/ferryRouteList">Ferry
+                  Route Management</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listFerry">Bus
+                  List</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listDriver">Driver
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Shift Pattern</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerPattern">Pattern
+                  Registration </a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listPattern">Pattern
+                  List</a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listPosition"><span
+              class="invisible">Position List</span></a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listLanguage"><span
+              class="invisible">Certificate List</span></a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listLeaveType"><span
+              class="invisible">Leave Type List</span></a></li>
+        </ul></li>
+  
+      <li class="inquiry nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Inquiry</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><span class="toggle">Address Change</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeRequestList">Address
+                  Change Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeRequestHistory">Address
+                  Change History</a></li>
+            </ol></li>
+          <li><span class="toggle">Profile Change</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/profileChangeRequestList">Profile
+                  Change Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/profileRequestListHistory">Profile
+                  Change History</a></li>
+            </ol></li>
+        </ul></li>
+    </ul>
+  </nav>

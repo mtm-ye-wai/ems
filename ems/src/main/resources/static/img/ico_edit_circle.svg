@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="ico_edit_circle" transform="translate(-388 -411.226)">
+    <g id="ico_edit_circle-2" data-name="ico_edit_circle" transform="translate(388 411.226)" fill="#309afc" stroke="#fff" stroke-width="1.5">
+      <circle cx="15.5" cy="15.5" r="15.5" stroke="none"/>
+      <circle cx="15.5" cy="15.5" r="14.75" fill="none"/>
+    </g>
+    <path id="edit-05-svgrepo-com" d="M7.181,3.1H4.763a4.291,4.291,0,0,0-1.82.188,1.727,1.727,0,0,0-.755.755A4.291,4.291,0,0,0,2,5.863V10.7a4.291,4.291,0,0,0,.188,1.82,1.727,1.727,0,0,0,.755.755,4.29,4.29,0,0,0,1.82.188H9.6a4.291,4.291,0,0,0,1.82-.188,1.727,1.727,0,0,0,.755-.755,4.29,4.29,0,0,0,.188-1.82V8.281M5.454,10.008h.964a2.466,2.466,0,0,0,.555-.032,1.152,1.152,0,0,0,.333-.138,2.464,2.464,0,0,0,.415-.37l5.505-5.505A1.221,1.221,0,0,0,11.5,2.237L5.994,7.742a2.462,2.462,0,0,0-.37.415,1.151,1.151,0,0,0-.138.333,2.463,2.463,0,0,0-.032.555Z" transform="translate(395.708 419.055)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

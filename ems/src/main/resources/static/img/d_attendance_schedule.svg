@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbc6e;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fbeede;
+      }
+    </style>
+  </defs>
+  <g id="Group_4858" data-name="Group 4858" transform="translate(-1037 -859)">
+    <path id="Path_11237" data-name="Path 11237" class="cls-1" d="M10,0H42A10,10,0,0,1,52,10V42A10,10,0,0,1,42,52H10A10,10,0,0,1,0,42V10A10,10,0,0,1,10,0Z" transform="translate(1037 859)"/>
+    <g id="Group_4849" data-name="Group 4849" transform="translate(720 521)">
+      <g id="Group_4124" data-name="Group 4124" transform="translate(326 347)">
+        <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="34" height="34"/>
+        <path id="Icon_awesome-user-check" data-name="Icon awesome-user-check" class="cls-3" d="M8.75,10a5,5,0,1,0-5-5A5,5,0,0,0,8.75,10Zm3.5,1.25H11.6a6.8,6.8,0,0,1-5.7,0H5.25A5.251,5.251,0,0,0,0,16.5v1.625A1.875,1.875,0,0,0,1.875,20h13.75A1.875,1.875,0,0,0,17.5,18.125V16.5A5.251,5.251,0,0,0,12.25,11.25ZM24.867,6.234l-1.086-1.1a.463.463,0,0,0-.656,0L19.031,9.2,17.254,7.406a.463.463,0,0,0-.656,0l-1.1,1.09a.463.463,0,0,0,0,.656l3.191,3.215a.463.463,0,0,0,.656,0l5.52-5.477a.467.467,0,0,0,0-.656Z" transform="translate(5 7)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="52" viewBox="0 0 60 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fbeede;
+      }
+
+      .cls-2, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #ffbc6e;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: #fbeede;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4114" data-name="Group 4114" transform="translate(-19.453 -26)">
+    <rect id="Rectangle_84" data-name="Rectangle 84" class="cls-1" width="60" height="52" rx="10" transform="translate(19.453 26)"/>
+    <g id="Component_14_35" data-name="Component 14 – 35" transform="translate(29.453 35)">
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="39" height="34"/>
+      <g id="Group_71" data-name="Group 71" transform="translate(4.214 4.161)">
+        <path id="Icon_ionic-ios-time" data-name="Icon ionic-ios-time" class="cls-3" d="M17.42,3.375c-7.758,0-14.045,5.511-14.045,12.311S9.661,28,17.42,28s14.045-5.511,14.045-12.311S25.178,3.375,17.42,3.375Zm.945,13.377a.9.9,0,0,1-.945.829H10.938a.836.836,0,1,1,0-1.657h5.537V8.11a.954.954,0,0,1,1.891,0Z" transform="translate(-3.375 -3.375)"/>
+        <g id="Ellipse_24" data-name="Ellipse 24" class="cls-4" transform="translate(17.481 13.311)">
+          <ellipse class="cls-6" cx="7.079" cy="6.184" rx="7.079" ry="6.184"/>
+          <ellipse class="cls-2" cx="7.079" cy="6.184" rx="6.579" ry="5.684"/>
+        </g>
+        <g id="Group_71-2" data-name="Group 71" transform="translate(21.59 16.901)">
+          <path id="Path_123" data-name="Path 123" class="cls-5" d="M1769.933,517.411V522.6" transform="translate(-1766.963 -517.411)"/>
+          <path id="Path_124" data-name="Path 124" class="cls-5" d="M0,0V5.94" transform="translate(5.94 2.595) rotate(90)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

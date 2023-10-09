@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffbc6e;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #fbeede;
+      }
+
+      .cls-4 {
+        fill: #fbeede;
+      }
+    </style>
+  </defs>
+  <g id="Group_4861" data-name="Group 4861" transform="translate(-317 -619)">
+    <path id="Path_114" data-name="Path 114" class="cls-1" d="M10,0H42A10,10,0,0,1,52,10V42A10,10,0,0,1,42,52H10A10,10,0,0,1,0,42V10A10,10,0,0,1,10,0Z" transform="translate(317 619)"/>
+    <g id="Component_14_7" data-name="Component 14 – 7" transform="translate(326 628)">
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="34" height="34"/>
+      <g id="Group_68" data-name="Group 68" transform="translate(520.758 -882.263)">
+        <path id="Path_112" data-name="Path 112" class="cls-3" d="M-449,915.111v12.494" transform="translate(-54.073 -20.472)"/>
+        <path id="Path_113" data-name="Path 113" class="cls-3" d="M-515,948.527V942.5h23.364v6.893" transform="translate(0.245 -41.932)"/>
+        <circle id="Ellipse_19" data-name="Ellipse 19" class="cls-4" cx="5" cy="5" r="5" transform="translate(-507.758 888.263)"/>
+        <circle id="Ellipse_20" data-name="Ellipse 20" class="cls-4" cx="3" cy="3" r="3" transform="translate(-505.758 904.263)"/>
+        <circle id="Ellipse_21" data-name="Ellipse 21" class="cls-4" cx="3" cy="3" r="3" transform="translate(-494.758 904.263)"/>
+        <circle id="Ellipse_22" data-name="Ellipse 22" class="cls-4" cx="3" cy="3" r="3" transform="translate(-517.758 904.263)"/>
+      </g>
+    </g>
+  </g>
+</svg>

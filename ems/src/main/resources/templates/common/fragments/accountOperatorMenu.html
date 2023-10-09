@@ -1,0 +1,220 @@
+<nav th:fragment="accountOperatorMenu">
+    <div class="logo-sec">
+      <h1 class="logo">
+        <a href="${pageContext.request.contextPath}/dashboard"><img
+          src="<%=request.getContextPath()%>/resources/new-design/img/logo.svg"
+          alt="EMS"> <span>EMS</span> </a>
+      </h1>
+      <p id="sidebar-btn">
+        <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon.svg"
+          alt="Icon" class="pc"> <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon_sp.png"
+          alt="Icon" class="sp">
+      </p>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li class="dashboard"><a
+        href="${pageContext.request.contextPath}/dashboard" class="active">
+          <span class="invisible">Dashboard</span>
+      </a></li>
+      <li class="report nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Report</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/listAttendance"><span
+              class="invisible">Attendance</span> </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listFingerprint"><span
+              class="invisible">Fingerprint</span> </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/leaveRecord"><span
+              class="invisible">Leave</span></a></li>
+          <li><span class="toggle">Overtime</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/listOvertimes">Overtime
+                  Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/historyOvertime">Overtime
+                  History</a></li>
+            </ol></li>
+          <li><span class="toggle">WFH</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/listWFH">WFH
+                  Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/memberWFHHistory">WFH
+                  History</a></li>
+            </ol></li>
+          <li><span class="toggle">Other Transportation</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/otherTransportationRequest">Transportation
+                  Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/otherTransportationHistory">Transportation
+                  History</a></li>
+            </ol></li>
+          <li><span class="toggle">Address Change</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeRequestList">Address
+                  Change Request</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeRequestHistory">Address
+                  Change History</a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/departmentChangeRequestHistory"><span
+              class="invisible">Department Change</span></a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/profileRequestListHistory"><span
+              class="invisible">Profile Change</span></a></li>
+        </ul></li>
+      <li class="employee nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Employee</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/listEmployees"><span
+              class="invisible">Employee List</span></a></li>
+          <li><span class="toggle">Employee Ferry</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/employeeFerry/import">Employee
+                  Ferry Import</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/employeeFerry/dataList">Employee
+                  Ferry List</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/guestEmployee/import">Guest
+                  Employee Import</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/guestEmployee/list">Guest
+                  Employee List</a></li>
+            </ol></li>
+          <li><a href="${pageContext.request.contextPath}/chatList"><span
+              class="invisible">Group Chat List</span></a></li>
+          <li><span class="toggle">Transportation</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/transportationHistory">Transportation
+                  History</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/transitionList">Transition
+                  History</a></li>
+            </ol></li>
+          <li><a href="${pageContext.request.contextPath}/schedule"><span
+              class="invisible">Schedule</span></a></li>
+        </ul></li>
+      <li class="employee nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Sys Management</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/listPosition"><span
+              class="invisible">Position List</span></a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listLanguage"><span
+              class="invisible">Certificate List</span></a></li>
+          <li><span class="toggle">Exchange Rate</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerExchangeRate">Exchange
+                  Rate Registration </a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listExchangeRate">Exchange
+                  Rate List</a></li>
+            </ol></li>
+          <li><span class="toggle">Ferry</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/ferryRoute/ferryRouteList">Ferry
+                  Route Management</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listFerry">Bus
+                  List</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listDriver">Driver
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Currency</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerCurrency">Currency
+                  Registration </a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listCurrency">Currency
+                  List</a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/listLeaveType"><span
+              class="invisible">Leave Type List</span></a></li>
+        </ul></li>
+      <li class="payment nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Payment</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><span class="toggle">Payment Attribute</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/addPayment">Attribute
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listPaymentAttribute">Attribute
+                  List</a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/paymentSlip"> <span
+              class="invisible">Payment Slip Template</span></a></li>
+          <li><span class="toggle">Skill</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerSkillAmount">Skill
+                  Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listEmployeeSkill">Skill
+                  List</a></li>
+            </ol></li>
+          <li><span class="toggle">Payment Calculation</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/paymentAtrriDetailRegister">Payment
+                  Detail Registration</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/paymentAttriDetailList">Payment
+                  Detail List</a></li>
+            </ol></li>
+          <li><span class="toggle">Payment Check</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/paymentCheck">All
+                  Payment Check</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/singlePaymentCheck">Single
+                  Payment Check</a></li>
+            </ol></li>
+          <li><span class="toggle">Payment History</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/paymentList">Payment
+                  Slip History</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/bankSlip">Bank
+                  Slip History</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/cashStatement">Cash
+                  Statement History</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/cashSign">Cash
+                  Sign History</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/listTotalSalary">Total
+                  Salary History</a></li>
+            </ol></li>
+        </ul></li>
+    </ul>
+  </nav>

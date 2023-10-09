@@ -1,0 +1,12 @@
+<div class="sidebar" th:fragment="sidebar">
+
+        <div th:insert="~{common/fragments/adminMenu :: adminMenu}"></div>
+
+      
+    <p class="side-setting">
+        <a th:href="@{/changePassword}" class="d-flex">
+            <img src="/img/setting.svg" alt="Setting" />
+            <span>Setting</span>
+        </a>
+    </p>
+  </div>

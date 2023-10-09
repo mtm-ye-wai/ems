@@ -1,0 +1,23 @@
+
+
+  <div class="header-user" th:fragment="header">
+    <ul>
+      <li class="notification"><a href="#"><img
+          src="/img/noti.svg"
+          class="noti-img" alt="Noti-Icon"> <span class="badge"></span>
+      </a> <span class="sp sp-logout"><img
+          src="/img/sp_profile_icon.png"
+          alt="Icon"></span>
+        <ol class="sp-logout-list">
+          <li>
+          
+
+              <span class="font-bold">username</span>
+</li>
+          <li><a href="${pageContext.request.contextPath}/logout"><img
+              src="/img/logout.svg"
+              class="logout-img" alt="Logout-Icon"><span>Logout</span></a>
+          </li>
+        </ol></li>
+    </ul>
+  </div>

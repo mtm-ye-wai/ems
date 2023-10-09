@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="ico_alert_success" transform="translate(-960 -2385)">
+    <circle id="Ellipse_1278" data-name="Ellipse 1278" cx="18" cy="18" r="18" transform="translate(960 2385)" fill="#30e8ac"/>
+    <g id="Group_4103" data-name="Group 4103" transform="translate(23 19)">
+      <path id="Icon_feather-shield" data-name="Icon feather-shield" d="M14,23s8-4,8-10V6L14,3,6,6v7C6,19,14,23,14,23Z" transform="translate(941 2371)" fill="#fff"/>
+      <path id="Path_10475" data-name="Path 10475" d="M20.734,6l-5.565,5.57L13.5,9.9" transform="translate(938 2375.5)" fill="none" stroke="#30e8ac" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

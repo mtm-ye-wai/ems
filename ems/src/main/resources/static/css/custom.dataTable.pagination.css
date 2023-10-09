@@ -1,0 +1,147 @@
+.custom_dataTables_wrapper .dataTables_length,
+.custom_dataTables_wrapper .dataTables_filter,
+.custom_dataTables_wrapper .dataTables_info,
+.custom_dataTables_wrapper .dataTables_processing,
+.custom_dataTables_wrapper .dataTables_paginate {
+  color: #333;
+}
+
+.custom_dataTables_wrapper .dataTables_length {
+  bottom: unset;
+  margin-top: 20px;
+}
+
+.custom_dataTables_wrapper .dataTables_length select {
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 3px;
+  border: 2px solid #ececec;
+  font-size: 14px;
+  font-family: "Poppins", san-serif;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate {
+  display: flex;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding-top: 0;
+  margin-top: 10px;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button {
+  margin-left: 0;
+  border: none;
+  border-radius: none;
+  cursor: pointer;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background: #309AFC !important;
+  color: #fff !important;
+  border: none;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  border: none;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: #309AFC !important;
+  color: #fff !important;
+  border: none;
+}
+
+.custom_dataTables_wrapper .dataTables_info {
+  clear: none;
+  float: right;
+  padding-top: 18px;
+}
+
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+.custom_dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active {
+  border: none;
+}
+
+#pagination {
+  display: flex;
+  background-color: #FFFFFF;
+  padding-top: 0;
+  margin: 0 auto;
+  margin-top: 60px;
+  float: none;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.pagination {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding-top: 0;
+}
+
+.pagination .active .page-link {
+  border-radius: 2px;
+  background: #309AFC;
+  color: #fff;
+  border: none;
+}
+
+.pagination .page-link:hover {
+  border-radius: 2px;
+  background: #309AFC;
+  color: #fff;
+  border: none;
+}
+
+.page-link {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: #333;
+}
+
+.custom_dataTables_wrapper::before,
+.custom_dataTables_wrapper::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Sorting */
+.sortUp,
+.sortDown,
+.sortDef {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.sortDef {
+  background-image: url("../images/sort_both.png");
+}
+
+.sortUp {
+  background-image: url("../images/sort_asc.png");
+}
+
+.sortDown {
+  background-image: url("../images/sort_desc.png");
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* download file */
+.download-file {
+  width: 20px;
+}

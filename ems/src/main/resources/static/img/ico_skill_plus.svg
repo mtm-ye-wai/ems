@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.593" height="20.593" viewBox="0 0 20.593 20.593">
+  <g id="ico_skill_plus" transform="translate(0 1)">
+    <g id="Rectangle_25" data-name="Rectangle 25" transform="translate(0 -1)" fill="#fff" stroke="#ececec" stroke-width="1">
+      <rect width="20.593" height="20.593" rx="10.297" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19.593" height="19.593" rx="9.797" fill="none"/>
+    </g>
+    <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(6.864 5.865)">
+      <path id="Path_110" data-name="Path 110" d="M18,7.5v6.459" transform="translate(-14.771 -7.5)" fill="none" stroke="#adadad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_111" data-name="Path 111" d="M7.5,18h6.459" transform="translate(-7.5 -14.771)" fill="none" stroke="#adadad" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

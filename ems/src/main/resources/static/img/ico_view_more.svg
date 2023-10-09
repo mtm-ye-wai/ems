@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37">
+  <g id="ico_view_more" transform="translate(-1129 -285.226)">
+    <g id="ico_view_more-2" data-name="ico_view_more" transform="translate(1129 285.226)" fill="#fff" stroke="#309afc" stroke-width="1">
+      <circle cx="18.5" cy="18.5" r="18.5" stroke="none"/>
+      <circle cx="18.5" cy="18.5" r="18" fill="none"/>
+    </g>
+    <path id="Icon_feather-chevron-left" data-name="Icon feather-chevron-left" d="M13.5,21.139l5.628-6.07L13.5,9" transform="translate(1162.392 288.161) rotate(90)" fill="none" stroke="#309afc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

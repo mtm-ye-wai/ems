@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="27" viewBox="0 0 36 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #309afc;
+      }
+    </style>
+  </defs>
+  <path id="Icon_awesome-folder" data-name="Icon awesome-folder" class="cls-1" d="M32.625,9h-13.5l-4.5-4.5H3.375A3.375,3.375,0,0,0,0,7.875v20.25A3.375,3.375,0,0,0,3.375,31.5h29.25A3.375,3.375,0,0,0,36,28.125V12.375A3.375,3.375,0,0,0,32.625,9Z" transform="translate(0 -4.5)"/>
+</svg>

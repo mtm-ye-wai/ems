@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_Copy" data-name="Path Copy" d="M10.08,3.279A5.3,5.3,0,0,1,14.944,0c2.93,0,5.04,2.493,5.305,5.465a5.411,5.411,0,0,1-.172,2.066,9.125,9.125,0,0,1-2.8,4.642l-7.2,6.39L3,12.173A9.123,9.123,0,0,1,.2,7.531,5.411,5.411,0,0,1,.032,5.465C.3,2.493,2.408,0,5.338,0A5.139,5.139,0,0,1,10.08,3.279Z" fill="none" stroke="#6bc3cd" stroke-miterlimit="10" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_4121" data-name="Group 4121" transform="translate(-359 -839)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="40" height="40" rx="20" transform="translate(359 839)" fill="#fbeede"/>
+    <g id="like-icon" transform="translate(368 850)">
+      <path id="Path_Copy-2" data-name="Path Copy" d="M10.08,3.279A5.3,5.3,0,0,1,14.944,0c2.93,0,5.04,2.493,5.305,5.465a5.411,5.411,0,0,1-.172,2.066,9.125,9.125,0,0,1-2.8,4.642l-7.2,6.39L3,12.173A9.123,9.123,0,0,1,.2,7.531,5.411,5.411,0,0,1,.032,5.465C.3,2.493,2.408,0,5.338,0A5.139,5.139,0,0,1,10.08,3.279Z" transform="translate(1.719 0.344)" fill="#ffbc6e" opacity="0.25"/>
+      <path id="Path_Copy-3" data-name="Path Copy" d="M10.08,3.279A5.3,5.3,0,0,1,14.944,0c2.93,0,5.04,2.493,5.305,5.465a5.411,5.411,0,0,1-.172,2.066,9.125,9.125,0,0,1-2.8,4.642l-7.2,6.39L3,12.173A9.123,9.123,0,0,1,.2,7.531,5.411,5.411,0,0,1,.032,5.465C.3,2.493,2.408,0,5.338,0A5.139,5.139,0,0,1,10.08,3.279Z" fill="none" stroke="#ffbc6e" stroke-miterlimit="10" stroke-width="1"/>
+      <g id="like-icon-2" data-name="like-icon" clip-path="url(#clip-path)">
+        <path id="Path" d="M0,0C0,.759,1.924,1.375,4.3,1.375h0c2.373,0,4.3-.616,4.3-1.375" transform="translate(5.844 9.711)" fill="none" stroke="#ffbc6e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"/>
+        <circle id="Oval" cx="0.5" cy="0.5" r="0.5" transform="translate(7 7)" fill="#ffbc6e"/>
+        <circle id="Oval-2" data-name="Oval" cx="0.5" cy="0.5" r="0.5" transform="translate(12 7)" fill="#ffbc6e"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,324 @@
+<nav th:fragment="userMenu">
+    <div class="logo-sec">
+      <h1 class="logo">
+        <a href="${pageContext.request.contextPath}/dashboard"><img
+          src="<%=request.getContextPath()%>/resources/new-design/img/logo.svg"
+          alt="EMS" /> <span>EMS</span> </a>
+      </h1>
+      <p id="sidebar-btn">
+        <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon.svg"
+          alt="Icon" class="pc" /> <img
+          src="<%=request.getContextPath()%>/resources/new-design/img/menu_icon_sp.png"
+          alt="Icon" class="sp" />
+      </p>
+    </div>
+    <ul class="sidebar-nav-list">
+      <li class="dashboard"><a
+        href="${pageContext.request.contextPath}/dashboard" class="active">
+          <span class="invisible">Dashboard</span>
+      </a></li>
+      <li class="report nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Report</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><span class="toggle">Leave</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/leaveReport">Single
+                  Leave Report</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/longTermLeaveReport">Long
+                  Term Leave Report</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/leaveRecord"
+                class="position-relative">Leave
+                  History <c:if
+                    test="${leaveRequestRejectHistoryCount > 0 && sessionScope.LOGIN_USER.loginUserType == 3}">
+                    <span class="count-noti text-center"> <spring:message
+                        text="${leaveRequestRejectHistoryCount}" />
+                    </span>
+                  </c:if>
+              </a></li>
+              <li><a class="position-relative"
+                href="${pageContext.request.contextPath}/earlyLeaveOrLateRecordDetail?empId=${sessionScope.LOGIN_USER.loginId}">Early
+                  Leave Or Late Record <c:if
+                    test="${earlyLeaveLateCount > 0 }">
+                    <span class="count-noti col-green text-center"><i
+                      class="fas fa-bell"></i></span>
+                  </c:if>
+              </a></li>
+            </ol></li>
+          <c:if test="${sessionScope.LOGIN_USER.loginUserType != 3}">
+            <li><span class="toggle">Overtime</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/registerOvertime">Overtime
+                    Report</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/historyOvertime"
+                  class="position-relative">Overtime
+                    History </a></li>
+              </ol></li>
+          </c:if>
+          <li><span class="toggle">Attendance</span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/registerAttendanceReport">Attendance
+                  Report</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/historyAttendanceReport"
+                class="position-relative">Attendance
+                  History <c:if
+                    test="${wfhRejectHistoryCount > 0 && sessionScope.LOGIN_USER.loginUserType == 3}">
+                    <span class="count-noti text-center"> <spring:message
+                        text="${wfhRejectHistoryCount}" />
+                    </span>
+                  </c:if>
+              </a></li>
+            </ol></li>
+          <c:if test="${sessionScope.LOGIN_USER.loginUserType == 3}">
+            <li><span class="toggle">Department Change</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/departmentChangeRegister">Department
+                    Change Report</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/departmentChangeHistory"
+                  class="position-relative">Department
+                    Change History <c:if
+                      test="${departmentChangeRejectCount > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${departmentChangeRejectCount}" />
+                      </span>
+                    </c:if>
+                </a></li>
+              </ol></li>
+            <li><a
+              href="${pageContext.request.contextPath}/attendanceSchedule">
+                <span class="invisible">Attendance Schedule</span>
+            </a></li>
+          </c:if>
+        </ul></li>
+      <c:if test="${sessionScope.LOGIN_USER.loginUserType == 3}">
+        <li class="employee nav-list-item"><a href="#" class="nav-sp">
+            <span class="invisible">Member</span>
+        </a>
+          <ul class="sub-nav-list">
+            <li><span class="toggle">Member Leave</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/leaveRequest">Leave
+                    Request</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/memberLeaveRecord"
+                  class="position-relative">Leave
+                    History <c:if test="${memberRejectLeaveHistory > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${memberRejectLeaveHistory}" />
+                      </span>
+                    </c:if>
+                </a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/earlyLeaveOrLateRecord">Early
+                    Leave Or Late Record</a></li>
+              </ol></li>
+            <li><span class="toggle">Member Overtime</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/listOvertimes">Overtime
+                    Request</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/memberHistoryOvertime"
+                  class="position-relative">Overtime
+                    History <c:if
+                      test="${memberRejectOvertimeHistory > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${memberRejectOvertimeHistory}" />
+                      </span>
+                    </c:if>
+                </a></li>
+              </ol></li>
+            <li><span class="toggle">Member WFH</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/listWFH">WFH
+                    Request</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/memberWFHHistory"
+                  class="position-relative">WFH
+                    History <c:if test="${memberRejectWFHHistory > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${memberRejectWFHHistory}" />
+                      </span>
+                    </c:if>
+                </a></li>
+              </ol></li>
+            <li><span class="toggle">Member Transportation</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/otherTransportationRequest">Transportation
+                    Request</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/otherTransportationHistory"
+                  class="position-relative">Transportation
+                    History <c:if
+                      test="${memberTransportationRejectHistory > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${memberTransportationRejectHistory}" />
+                      </span>
+                    </c:if>
+                </a></li>
+              </ol></li>
+            <li><a
+              href="${pageContext.request.contextPath}/memberAttendanceHistory"><span
+                class="invisible">Member Attendance History</span></a></li>
+            <li><a
+              href="${pageContext.request.contextPath}/listTotalSalary"><span
+                class="invisible">Member Total Salary History</span></a></li>
+            <li><a
+              href="${pageContext.request.contextPath}/listEmployeeSkill"><span
+                class="invisible">Member Skill List</span></a></li>
+          </ul></li>
+      </c:if>
+      <li class="employee nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Employee</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/listEmployeeInformation">
+              <span class="invisible">Employee Information</span>
+          </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/showMonthlyReport">
+              <span class="invisible">Monthly Report</span>
+          </a></li>
+          <li><a
+            href="${pageContext.request.contextPath}/monthlyReportHistory">
+              <span class="invisible">Monthly Report History</span>
+          </a></li>
+          <c:if test="${sessionScope.LOGIN_USER.loginUserType == 4}">
+            <li><a href="${pageContext.request.contextPath}/chatList">
+                <span class="invisible">Group Chat List</span>
+            </a></li>
+          </c:if>
+          <c:if test="${sessionScope.LOGIN_USER.loginUserType == 3}">
+            <li><span class="toggle">Group Chat</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/groupChatRegister">Group
+                    Chat Register</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/chatList">Group
+                    Chat List</a></li>
+              </ol></li>
+            <li><span class="toggle">Project Assign</span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/registerProjectAssign">Project
+                    Assign Register</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/listProjectAssign">Project
+                    Assign Information</a></li>
+              </ol></li>
+            <li><a
+              href="${pageContext.request.contextPath}/dailyTemperatureRecord"><span
+                class="invisible">Daily Temperature Record</span></a></li>
+          </c:if>
+          <li><a href="${pageContext.request.contextPath}/schedule">
+              <span class="invisible">Schedule</span>
+          </a></li>
+        </ul></li>
+      <c:if test="${sessionScope.LOGIN_USER.loginUserType == 4}">
+        <li class="transportation nav-list-item"><a href="#"
+          class="nav-sp"> <span class="invisible">Transportation</span>
+        </a>
+          <ul class="sub-nav-list">
+            <li><a
+              href="${pageContext.request.contextPath}/otherTransportation">
+                <span class="invisible">Other Transportation Report</span>
+            </a></li>
+            <li><a
+              href="${pageContext.request.contextPath}/listOtherTransportation">
+                <span class="invisible">Other Transportation
+                  History</span>
+            </a></li>
+            <li><a
+              href="${pageContext.request.contextPath}/transitionList">
+                <span class="invisible">Transition History</span>
+            </a></li>
+          </ul></li>
+      </c:if>
+      <li class="inquiry nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Inquiry</span>
+      </a>
+        <ul class="sub-nav-list">
+          <c:if test="${sessionScope.LOGIN_USER.loginUserType == 3}">
+            <li><span class="toggle">Transportation </span>
+              <ol class="child-nav-list">
+                <li><a
+                  href="${pageContext.request.contextPath}/otherTransportation">Other
+                    Transportation Report</a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/listOtherTransportation"
+                  class="position-relative">Other
+                    Transportation History <c:if
+                      test="${OtherTransportationRejectHistoryCount > 0 }">
+                      <span class="count-noti text-center"> <spring:message
+                          text="${OtherTransportationRejectHistoryCount}" />
+                      </span>
+                    </c:if>
+                </a></li>
+                <li><a
+                  href="${pageContext.request.contextPath}/transitionList">Transition
+                    History</a></li>
+              </ol></li>
+          </c:if>
+          <li><span class="toggle">Address Change </span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeRegistration">Address
+                  Change Report</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/addressChangeHistory"
+                class="position-relative">Address
+                  Change History <c:if
+                    test="${addressRejectHistoryCount > 0 && sessionScope.LOGIN_USER.loginUserType == 3}">
+                    <span class="count-noti text-center"> <spring:message
+                        text="${addressRejectHistoryCount}" />
+                    </span>
+                  </c:if>
+              </a></li>
+            </ol></li>
+          <li><span class="toggle">Profile Change </span>
+            <ol class="child-nav-list">
+              <li><a
+                href="${pageContext.request.contextPath}/profileChangeRequest">Profile
+                  Change Report</a></li>
+              <li><a
+                href="${pageContext.request.contextPath}/profileChangeHistory"
+                class="position-relative">Profile
+                  Change History <c:if
+                    test="${profileChangeRejectHistoryCount > 0 && sessionScope.LOGIN_USER.loginUserType == 3}">
+                    <span class="count-noti text-center"> <spring:message
+                        text="${profileChangeRejectHistoryCount}" />
+                    </span>
+                  </c:if>
+              </a></li>
+            </ol></li>
+          <li><a
+            href="${pageContext.request.contextPath}/ferryRoute/ferryRouteList">
+              <span class="invisible">Ferry Route List</span>
+          </a></li>
+        </ul></li>
+      <li class="payment nav-list-item"><a href="#" class="nav-sp">
+          <span class="invisible">Payment</span>
+      </a>
+        <ul class="sub-nav-list">
+          <li><a
+            href="${pageContext.request.contextPath}/employeePaymentShow">
+              <span class="invisible">Payment Record</span>
+          </a></li>
+        </ul></li>
+    </ul>
+  </nav>

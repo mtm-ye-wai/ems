@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b495fd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ebe2ff;
+      }
+    </style>
+  </defs>
+  <g id="Group_4860" data-name="Group 4860" transform="translate(-604 -453)">
+    <rect id="Rectangle_91" data-name="Rectangle 91" class="cls-1" width="52" height="52" rx="10" transform="translate(604 453)"/>
+    <g id="Component_14_1" data-name="Component 14 – 1" transform="translate(613 462)">
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="34" height="34"/>
+      <path id="Icon_awesome-user-edit" data-name="Icon awesome-user-edit" class="cls-3" d="M9.963,11.386A5.693,5.693,0,1,0,4.27,5.693,5.693,5.693,0,0,0,9.963,11.386Zm3.985,1.423h-.743a7.742,7.742,0,0,1-6.485,0H5.978A5.979,5.979,0,0,0,0,18.787v1.85a2.135,2.135,0,0,0,2.135,2.135H14.362a2.136,2.136,0,0,1-.116-.947l.3-2.709.053-.494.351-.351,3.438-3.438a5.917,5.917,0,0,0-4.443-2.024Zm2.015,6.463-.3,2.713a.708.708,0,0,0,.783.783l2.709-.3,6.133-6.133L22.1,13.143l-6.133,6.129ZM28.154,11.96l-1.686-1.686a1.066,1.066,0,0,0-1.5,0l-1.681,1.681-.182.182,3.193,3.189,1.859-1.859a1.071,1.071,0,0,0,0-1.508Z" transform="translate(5 6)"/>
+    </g>
+  </g>
+</svg>

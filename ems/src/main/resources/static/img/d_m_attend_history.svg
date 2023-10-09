@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b495fd;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #ebe2ff;
+      }
+    </style>
+  </defs>
+  <g id="Group_4861" data-name="Group 4861" transform="translate(-317 -166)">
+    <rect id="Rectangle_1297" data-name="Rectangle 1297" class="cls-1" width="52" height="52" rx="10" transform="translate(317 166)"/>
+    <g id="Group_4855" data-name="Group 4855" transform="translate(-360 -172)">
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-2" width="34" height="34" transform="translate(686 347)"/>
+      <path id="Icon_awesome-user-clock" data-name="Icon awesome-user-clock" class="cls-3" d="M22.06,9.963a6.4,6.4,0,1,0,6.4,6.4A6.4,6.4,0,0,0,22.06,9.963Zm2.846,6.685a.435.435,0,0,1-.431.431h-2.7a.435.435,0,0,1-.431-.431V13.24a.435.435,0,0,1,.431-.431h.56a.435.435,0,0,1,.431.431v2.415h1.7a.435.435,0,0,1,.431.431Zm-10.674-.28a7.8,7.8,0,0,1,.809-3.447,5.926,5.926,0,0,0-1.094-.111H13.2a7.742,7.742,0,0,1-6.485,0H5.978A5.979,5.979,0,0,0,0,18.786v1.85a2.135,2.135,0,0,0,2.135,2.135H17.572A7.828,7.828,0,0,1,14.232,16.367Zm-4.27-4.981A5.693,5.693,0,1,0,4.27,5.693,5.692,5.692,0,0,0,9.963,11.386Z" transform="translate(689 353)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #309afc;
+      }
+
+      .cls-2 {
+        fill: #c5e3ff;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #309afc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Group_4857" data-name="Group 4857" transform="translate(-317 -166)">
+    <rect id="Rectangle_84" data-name="Rectangle 84" class="cls-1" width="52" height="52" rx="10" transform="translate(317 166)"/>
+    <g id="Component_14_3" data-name="Component 14 – 3" transform="translate(326 175)">
+      <g id="Group_63" data-name="Group 63" transform="translate(-843.813 -102.5)">
+        <path id="Icon_awesome-calendar" data-name="Icon awesome-calendar" class="cls-2" d="M.513,8.21h18.13a.515.515,0,0,1,.513.513V19.84A2.053,2.053,0,0,1,17.1,21.892H2.052A2.053,2.053,0,0,1,0,19.84V8.723A.515.515,0,0,1,.513,8.21ZM19.156,6.328V4.789A2.053,2.053,0,0,0,17.1,2.737H15.051V.513A.515.515,0,0,0,14.538,0h-1.71a.515.515,0,0,0-.513.513V2.737H6.841V.513A.515.515,0,0,0,6.328,0H4.618A.515.515,0,0,0,4.1.513V2.737H2.052A2.053,2.053,0,0,0,0,4.789V6.328a.515.515,0,0,0,.513.513h18.13A.515.515,0,0,0,19.156,6.328Z" transform="translate(851.375 109)"/>
+        <g id="Group_51" data-name="Group 51" transform="translate(860.821 120.434)">
+          <path id="Path_102" data-name="Path 102" class="cls-3" d="M24,3V6.778" transform="translate(-24 -3)"/>
+          <path id="Path_103" data-name="Path 103" class="cls-3" d="M24,3h0" transform="translate(-24 3.849)"/>
+        </g>
+      </g>
+      <rect id="Rectangle_92" data-name="Rectangle 92" class="cls-4" width="34" height="34"/>
+    </g>
+  </g>
+</svg>
